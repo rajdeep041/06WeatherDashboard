@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- As a heading -->
+    <nav class="navbar bg-dark">
+      <span class="navbar-brand mb-0 text-light h1">Weather Dashboard</span>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <!-- Search form -->
+        <div class="col">
+          <div class="row">
+            <div class="input-group md-form form-sm form-1 pl-0">
+              <div class="input-group-prepend">
+                <span class="input-group-text purple lighten-3" id="basic-text1"
+                  ><i class="fas fa-search text-white" aria-hidden="true"></i
+                ></span>
+              </div>
+
+              <input
+                class="form-control my-0 py-1"
+                type="text"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </div>
+
+            <ul class="list-group" id="myList">
+              <li class="list-group-item">Most Recent Search</li>
+              <li class="list-group-item">Previous Search</li>
+              <li class="list-group-item">Previous Search</li>
+              <li class="list-group-item">Previous Search</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6">
+          <!-- <div class="row"> -->
+          <div class="city">City</div>
+          <div class="temp">Temperature:</div>
+          <div class="humidity">Humidity:</div>
+          <div class="wind">Wind Speed:</div>
+          <div class="uvindex">UV Index:</div>
+          <!-- </div> -->
+        </div>
+        <div class="container">
+          <div id="forecast" style="text-align: center; border-style:solid; border-color: gainsboro; padding: 30%;"> 5-Day Forecast</textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- Retrieved data will be dumped here -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      
+      // Things to accomplish:
+      // Get an API Key from OpenWeatherMap API
+      // Create an AJAX call to retrieve data Log the data in console
+      // Log the data in HTML
+      // Scream Ushindi (victory in Swahili)! at the top of your lungs
+    </script> 
+  </body>
+</html>

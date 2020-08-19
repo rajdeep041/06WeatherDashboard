@@ -1,0 +1,33 @@
+.navbar {
+  text-align: center;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+.input-group {
+  margin: 10%;
+}
+
+.list-group {
+  padding: 3%;
+}
+
+.col {
+  background-color: lightgrey;
+  margin: 10px;
+}
+
+.col-6 {
+  border: gainsboro;
+  border-style: solid;
+  margin: 10px;
+}
+.forecast {
+  padding: 30%;
+}
+
+.city {
+  font-size: 40px;
+}
